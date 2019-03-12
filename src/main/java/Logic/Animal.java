@@ -1,9 +1,11 @@
 package Logic;
 
+import Logic.Interfaces.IAnimal;
+
 import java.util.Calendar;
 import java.util.Date;
 
-public class Animal {
+public class Animal implements IAnimal {
     private String name;
     private Gender gender;
     private Reservor ReservedBy;

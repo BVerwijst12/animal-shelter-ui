@@ -1,22 +1,15 @@
 import Logic.Cat;
-import Logic.CatCollection;
 import Logic.Gender;
 import org.junit.Assert;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-public class CatCollectionTest {
-    static CatCollection catCollection;
-    @BeforeAll
-    public static void TestSetup(){
-        catCollection = new CatCollection();
-    }
+public class CatTest {
     @Test
     public void calcCatPriceTest(){
         Cat cat = new Cat("cat", Gender.Male, "scratch");
 
         int expected = 350 - 7 * 20;
-        int actual = catCollection.calcPrice(cat);
+        int actual = cat.getPrice();
 
         Assert.assertEquals(expected, actual);
     }
@@ -26,7 +19,7 @@ public class CatCollectionTest {
         Cat cat = new Cat("cat", Gender.Male, "breaks everything that ever could be broken");
 
         int expected = 50;
-        int actual = catCollection.calcPrice(cat);
+        int actual = cat.getPrice();
 
         Assert.assertEquals(expected, actual);
     }
