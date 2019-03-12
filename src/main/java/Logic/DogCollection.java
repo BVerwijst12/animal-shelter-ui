@@ -26,4 +26,8 @@ public class DogCollection {
 
         allDogs.add(dog);
     }
+
+    public ArrayList<Dog> getAllDogs() {
+        return allDogs;
+    }
 }

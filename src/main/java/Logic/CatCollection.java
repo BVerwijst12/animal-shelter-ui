@@ -32,4 +32,8 @@ public class CatCollection {
 
         allCats.add(cat);
     }
+
+    public ArrayList<Cat> getAllCats() {
+        return allCats;
+    }
 }
