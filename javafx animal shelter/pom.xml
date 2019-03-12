@@ -8,26 +8,29 @@
     <artifactId>javafx animal shelter</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-            <version>12-ea+14</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-graphics</artifactId>
-            <version>12-ea+14</version>
-        </dependency>
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-base</artifactId>
-            <version>12-ea+14</version>
+            <version>${openfxVersion}</version>
         </dependency>
+
+
         <dependency>
             <groupId>org.openjfx</groupId>
-            <artifactId>javafx-fxml</artifactId>
-            <version>12-ea+14</version>
+            <artifactId>javafx-controls</artifactId>
+            <version>${openfxVersion}</version>
+         </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>${openfxVersion}</version>
         </dependency>
+         <dependency>
+             <groupId>org.openjfx</groupId>
+             <artifactId>javafx-fxml</artifactId>
+             <version>${openfxVersion}</version>
+         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
