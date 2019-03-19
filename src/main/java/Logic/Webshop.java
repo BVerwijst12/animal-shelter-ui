@@ -17,4 +17,8 @@ public class Webshop {
         System.out.println("CatHasBeenAdded");
     }
 
+    public void sellProduct(){
+
+    }
+
 }
