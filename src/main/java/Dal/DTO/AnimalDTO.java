@@ -1,9 +1,9 @@
 package Dal.DTO;
 
 public class AnimalDTO {
-    int AnimalId;
-    String Name;
-    String Gender;
+    public int AnimalId;
+    public String Name;
+    public String Gender;
 
     public AnimalDTO(int animalId, String name, String gender){
         AnimalId = animalId;

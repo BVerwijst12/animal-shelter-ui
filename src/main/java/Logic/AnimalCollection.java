@@ -1,9 +1,13 @@
 package Logic;
 
+import Dal.AnimalMySQLContext;
+import Dal.DTO.AnimalDTO;
 import Logic.Interfaces.IAnimalCollection;
 
+import javax.persistence.Convert;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class AnimalCollection implements IAnimalCollection {
@@ -28,6 +32,16 @@ public class AnimalCollection implements IAnimalCollection {
 
 
     public ArrayList<Animal> getAllAnimals(){
+        AnimalMySQLContext animalMySQLContext = new AnimalMySQLContext();
+
+        ArrayList<AnimalDTO> animalDTOS = animalMySQLContext.GetAllAnimals();
+        ArrayList<Animal> allAnimals = new ArrayList<>();
+
+        for (AnimalDTO animalDTO: animalDTOS
+             ) {
+            Animal animal = new Animal(animalDTO.Name, Gender.valueOf(animalDTO.Gender));
+            allAnimals.add(animal);
+        }
         return allAnimals;
     }
 
