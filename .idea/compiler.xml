@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="javafx animal shelter" target="8" />
+      <module name="javafx animal shelter" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
