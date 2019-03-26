@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/AddAnimalListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/AnimalCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Gender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Interfaces/IAnimal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Interfaces/IAnimalCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Interfaces/ICatCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Interfaces/IDogCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Interfaces/ISellable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Reservation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Reservor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logic/Webshop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/AddAnimalController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/Main.class" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dal/AnimalMySQLContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="289">
+              <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,10 +203,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="animal-shelter-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -240,7 +219,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553069262923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553602497926" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/Logic" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -435,7 +414,8 @@
       <workItem from="1552917263239" duration="28000" />
       <workItem from="1552988739176" duration="4311000" />
       <workItem from="1553068898290" duration="836000" />
-      <workItem from="1553595895802" duration="529000" />
+      <workItem from="1553595895802" duration="827000" />
+      <workItem from="1553602275726" duration="320000" />
     </task>
     <servers />
   </component>
@@ -457,12 +437,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25316000" />
+    <option name="totallyTimeSpent" value="25934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.28389263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.28791946" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -640,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/AddAnimalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -723,10 +697,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/AddAnimalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dal/AnimalMySQLContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="289">
+          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
